@@ -69,11 +69,12 @@ def menu():
         if opMenu=="1":
             opMenu1()
         elif opMenu=="2":
-            print('----------------------   opción 2  ----------------------\n')
+            print('----------------------   Gestionar películas  ----------------------\n')
+            print('1) Películas\n2) Actores')
         elif opMenu=="3":
-            print('----------------------   opción 3  ----------------------\n')
+            print('----------------------   Filtrar ----------------------\n')
         elif opMenu=="4":
-            print('----------------------   Opcion 4  ----------------------\n')
+            print('----------------------   Graficar  ----------------------\n')
         elif opMenu=="5":
             clear()
             print('\nAdíos\n')
